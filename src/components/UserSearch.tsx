@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { FaGithubAlt } from "react-icons/fa";
 
 const UserSearch = () => {
   const [username, setUsername] = useState("");
@@ -58,6 +59,7 @@ const UserSearch = () => {
             className='profile-btn'
             target='_blank'
             rel='noopener noreferrer'>
+            <FaGithubAlt />
             View Github Profile
           </a>
         </div>
