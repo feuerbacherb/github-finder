@@ -10,7 +10,7 @@ const UserCard = ({ user }: { user: GitHubUser }) => {
         className='avatar'
       />
       <h2>{user.name || user.login}</h2>
-      <p>{user.bio}</p>
+      <p className='bio'>{user.bio}</p>
       <a
         href={user.html_url}
         className='profile-btn'
